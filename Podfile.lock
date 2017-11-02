@@ -1,0 +1,51 @@
+PODS:
+  - Alamofire (4.5.1)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FBSDKCoreKit (4.27.1):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.27.1):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.27.1):
+    - FBSDKCoreKit
+  - FTIndicator (1.2.5):
+    - FTIndicator/FTNotificationIndicator (= 1.2.5)
+    - FTIndicator/FTProgressIndicator (= 1.2.5)
+    - FTIndicator/FTToastIndicator (= 1.2.5)
+  - FTIndicator/FTNotificationIndicator (1.2.5)
+  - FTIndicator/FTProgressIndicator (1.2.5)
+  - FTIndicator/FTToastIndicator (1.2.5)
+  - NVActivityIndicatorView (4.0.0):
+    - NVActivityIndicatorView/Presenter (= 4.0.0)
+  - NVActivityIndicatorView/Presenter (4.0.0)
+  - TwitterCore (3.0.2)
+  - TwitterKit (3.2.1):
+    - TwitterCore (>= 3.0.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - FTIndicator (~> 1.2)
+  - NVActivityIndicatorView
+  - TwitterKit
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FBSDKCoreKit: 03365dad5d790249196ffad8be4f6d8a2d98f932
+  FBSDKLoginKit: 66ff53b73cffd967ab773e32fac39e90a60e6d46
+  FBSDKShareKit: 6a6a0ef9e850c741e4e1d7a7d21335205e997ec1
+  FTIndicator: 4c6184ee656a2b6d3bcb92723eb6998098b7dc1d
+  NVActivityIndicatorView: 54c9b93b6f25a4f467512680c0c90c09a1095cf2
+  TwitterCore: e0420b01e02e7d20e94690e37f43e75de219ab8d
+  TwitterKit: 205ac89824bbfe9e85a16c420d30bb7bcbedac45
+
+PODFILE CHECKSUM: 511448c8b8992e3b4e1285e19cbdb1e51eaf5782
+
+COCOAPODS: 1.4.0.beta.1

@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044B4F241F9F0D1A000EB506 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B4F231F9F0D1A000EB506 /* HomeViewController.swift */; };
+		044B4F261F9F1B9C000EB506 /* ConvertCurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B4F251F9F1B9C000EB506 /* ConvertCurrencyViewController.swift */; };
+		0477EEC01F9EF2D300B2B082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477EEBF1F9EF2D300B2B082 /* AppDelegate.swift */; };
+		0477EEC51F9EF2D300B2B082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0477EEC31F9EF2D300B2B082 /* Main.storyboard */; };
+		0477EEC71F9EF2D300B2B082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0477EEC61F9EF2D300B2B082 /* Assets.xcassets */; };
+		0477EECA1F9EF2D300B2B082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0477EEC81F9EF2D300B2B082 /* LaunchScreen.storyboard */; };
+		0477EED51F9EF2D400B2B082 /* LosBenjaminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477EED41F9EF2D400B2B082 /* LosBenjaminTests.swift */; };
+		0477EEE01F9EF2D400B2B082 /* LosBenjaminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477EEDF1F9EF2D400B2B082 /* LosBenjaminUITests.swift */; };
+		0477EEF31F9EF3DA00B2B082 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477EEF21F9EF3DA00B2B082 /* Singleton.swift */; };
+		0477EEF51F9EF51300B2B082 /* WebserviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477EEF41F9EF51300B2B082 /* WebserviceManager.swift */; };
+		9DC64DF1CA76FFB0FE663C99 /* Pods_LosBenjamin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812A3CE235ED862CB97CD592 /* Pods_LosBenjamin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0477EED11F9EF2D400B2B082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0477EEB41F9EF2D300B2B082 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0477EEBB1F9EF2D300B2B082;
+			remoteInfo = LosBenjamin;
+		};
+		0477EEDC1F9EF2D400B2B082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0477EEB41F9EF2D300B2B082 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0477EEBB1F9EF2D300B2B082;
+			remoteInfo = LosBenjamin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044AB14E1FA6EDA5006784A6 /* LosBenjamin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LosBenjamin.entitlements; sourceTree = "<group>"; };
+		044B4F231F9F0D1A000EB506 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		044B4F251F9F1B9C000EB506 /* ConvertCurrencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertCurrencyViewController.swift; sourceTree = "<group>"; };
+		0477EEBC1F9EF2D300B2B082 /* LosBenjamin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LosBenjamin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0477EEBF1F9EF2D300B2B082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0477EEC41F9EF2D300B2B082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0477EEC61F9EF2D300B2B082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0477EEC91F9EF2D300B2B082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0477EECB1F9EF2D300B2B082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0477EED01F9EF2D400B2B082 /* LosBenjaminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LosBenjaminTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0477EED41F9EF2D400B2B082 /* LosBenjaminTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LosBenjaminTests.swift; sourceTree = "<group>"; };
+		0477EED61F9EF2D400B2B082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0477EEDB1F9EF2D400B2B082 /* LosBenjaminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LosBenjaminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0477EEDF1F9EF2D400B2B082 /* LosBenjaminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LosBenjaminUITests.swift; sourceTree = "<group>"; };
+		0477EEE11F9EF2D400B2B082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0477EEF21F9EF3DA00B2B082 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		0477EEF41F9EF51300B2B082 /* WebserviceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebserviceManager.swift; sourceTree = "<group>"; };
+		28865351081EFC23689CEA22 /* Pods-LosBenjamin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LosBenjamin.release.xcconfig"; path = "Pods/Target Support Files/Pods-LosBenjamin/Pods-LosBenjamin.release.xcconfig"; sourceTree = "<group>"; };
+		6DD84164F55A4222049839FC /* Pods-LosBenjamin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LosBenjamin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LosBenjamin/Pods-LosBenjamin.debug.xcconfig"; sourceTree = "<group>"; };
+		812A3CE235ED862CB97CD592 /* Pods_LosBenjamin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LosBenjamin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0477EEB91F9EF2D300B2B082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC64DF1CA76FFB0FE663C99 /* Pods_LosBenjamin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0477EECD1F9EF2D400B2B082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0477EED81F9EF2D400B2B082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0477EEB31F9EF2D300B2B082 = {
+			isa = PBXGroup;
+			children = (
+				0477EEBE1F9EF2D300B2B082 /* LosBenjamin */,
+				0477EED31F9EF2D400B2B082 /* LosBenjaminTests */,
+				0477EEDE1F9EF2D400B2B082 /* LosBenjaminUITests */,
+				0477EEBD1F9EF2D300B2B082 /* Products */,
+				CC7481B010829FEB3A427D20 /* Pods */,
+				76D13D659B1628A635F37211 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0477EEBD1F9EF2D300B2B082 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0477EEBC1F9EF2D300B2B082 /* LosBenjamin.app */,
+				0477EED01F9EF2D400B2B082 /* LosBenjaminTests.xctest */,
+				0477EEDB1F9EF2D400B2B082 /* LosBenjaminUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0477EEBE1F9EF2D300B2B082 /* LosBenjamin */ = {
+			isa = PBXGroup;
+			children = (
+				044AB14E1FA6EDA5006784A6 /* LosBenjamin.entitlements */,
+				0477EEED1F9EF30700B2B082 /* Utility */,
+				0477EEF11F9EF36700B2B082 /* Api's */,
+				0477EEEE1F9EF31300B2B082 /* Model */,
+				0477EEF01F9EF32C00B2B082 /* Controllers */,
+				0477EEEF1F9EF31C00B2B082 /* Views */,
+				0477EEC61F9EF2D300B2B082 /* Assets.xcassets */,
+				0477EECB1F9EF2D300B2B082 /* Info.plist */,
+			);
+			path = LosBenjamin;
+			sourceTree = "<group>";
+		};
+		0477EED31F9EF2D400B2B082 /* LosBenjaminTests */ = {
+			isa = PBXGroup;
+			children = (
+				0477EED41F9EF2D400B2B082 /* LosBenjaminTests.swift */,
+				0477EED61F9EF2D400B2B082 /* Info.plist */,
+			);
+			path = LosBenjaminTests;
+			sourceTree = "<group>";
+		};
+		0477EEDE1F9EF2D400B2B082 /* LosBenjaminUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0477EEDF1F9EF2D400B2B082 /* LosBenjaminUITests.swift */,
+				0477EEE11F9EF2D400B2B082 /* Info.plist */,
+			);
+			path = LosBenjaminUITests;
+			sourceTree = "<group>";
+		};
+		0477EEED1F9EF30700B2B082 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		0477EEEE1F9EF31300B2B082 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0477EEEF1F9EF31C00B2B082 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0477EEC81F9EF2D300B2B082 /* LaunchScreen.storyboard */,
+				0477EEC31F9EF2D300B2B082 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0477EEF01F9EF32C00B2B082 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0477EEBF1F9EF2D300B2B082 /* AppDelegate.swift */,
+				044B4F231F9F0D1A000EB506 /* HomeViewController.swift */,
+				044B4F251F9F1B9C000EB506 /* ConvertCurrencyViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0477EEF11F9EF36700B2B082 /* Api's */ = {
+			isa = PBXGroup;
+			children = (
+				0477EEF21F9EF3DA00B2B082 /* Singleton.swift */,
+				0477EEF41F9EF51300B2B082 /* WebserviceManager.swift */,
+			);
+			name = "Api's";
+			sourceTree = "<group>";
+		};
+		76D13D659B1628A635F37211 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				812A3CE235ED862CB97CD592 /* Pods_LosBenjamin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC7481B010829FEB3A427D20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DD84164F55A4222049839FC /* Pods-LosBenjamin.debug.xcconfig */,
+				28865351081EFC23689CEA22 /* Pods-LosBenjamin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0477EEBB1F9EF2D300B2B082 /* LosBenjamin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0477EEE41F9EF2D400B2B082 /* Build configuration list for PBXNativeTarget "LosBenjamin" */;
+			buildPhases = (
+				FD1FD6B68E09977C41A066C5 /* [CP] Check Pods Manifest.lock */,
+				0477EEB81F9EF2D300B2B082 /* Sources */,
+				0477EEB91F9EF2D300B2B082 /* Frameworks */,
+				0477EEBA1F9EF2D300B2B082 /* Resources */,
+				DB202D190A6B8C9C23BDAF1D /* [CP] Embed Pods Frameworks */,
+				EC7727837AF3FD2025AEF9C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LosBenjamin;
+			productName = LosBenjamin;
+			productReference = 0477EEBC1F9EF2D300B2B082 /* LosBenjamin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0477EECF1F9EF2D400B2B082 /* LosBenjaminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0477EEE71F9EF2D400B2B082 /* Build configuration list for PBXNativeTarget "LosBenjaminTests" */;
+			buildPhases = (
+				0477EECC1F9EF2D400B2B082 /* Sources */,
+				0477EECD1F9EF2D400B2B082 /* Frameworks */,
+				0477EECE1F9EF2D400B2B082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0477EED21F9EF2D400B2B082 /* PBXTargetDependency */,
+			);
+			name = LosBenjaminTests;
+			productName = LosBenjaminTests;
+			productReference = 0477EED01F9EF2D400B2B082 /* LosBenjaminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0477EEDA1F9EF2D400B2B082 /* LosBenjaminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0477EEEA1F9EF2D400B2B082 /* Build configuration list for PBXNativeTarget "LosBenjaminUITests" */;
+			buildPhases = (
+				0477EED71F9EF2D400B2B082 /* Sources */,
+				0477EED81F9EF2D400B2B082 /* Frameworks */,
+				0477EED91F9EF2D400B2B082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0477EEDD1F9EF2D400B2B082 /* PBXTargetDependency */,
+			);
+			name = LosBenjaminUITests;
+			productName = LosBenjaminUITests;
+			productReference = 0477EEDB1F9EF2D400B2B082 /* LosBenjaminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0477EEB41F9EF2D300B2B082 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Orem;
+				TargetAttributes = {
+					0477EEBB1F9EF2D300B2B082 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5TNGW5P8B9;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					0477EECF1F9EF2D400B2B082 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0477EEBB1F9EF2D300B2B082;
+					};
+					0477EEDA1F9EF2D400B2B082 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0477EEBB1F9EF2D300B2B082;
+					};
+				};
+			};
+			buildConfigurationList = 0477EEB71F9EF2D300B2B082 /* Build configuration list for PBXProject "LosBenjamin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0477EEB31F9EF2D300B2B082;
+			productRefGroup = 0477EEBD1F9EF2D300B2B082 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0477EEBB1F9EF2D300B2B082 /* LosBenjamin */,
+				0477EECF1F9EF2D400B2B082 /* LosBenjaminTests */,
+				0477EEDA1F9EF2D400B2B082 /* LosBenjaminUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0477EEBA1F9EF2D300B2B082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0477EECA1F9EF2D300B2B082 /* LaunchScreen.storyboard in Resources */,
+				0477EEC71F9EF2D300B2B082 /* Assets.xcassets in Resources */,
+				0477EEC51F9EF2D300B2B082 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0477EECE1F9EF2D400B2B082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0477EED91F9EF2D400B2B082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB202D190A6B8C9C23BDAF1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LosBenjamin/Pods-LosBenjamin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FTIndicator/FTIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FTIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LosBenjamin/Pods-LosBenjamin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC7727837AF3FD2025AEF9C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LosBenjamin/Pods-LosBenjamin-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LosBenjamin/Pods-LosBenjamin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD1FD6B68E09977C41A066C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LosBenjamin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0477EEB81F9EF2D300B2B082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B4F261F9F1B9C000EB506 /* ConvertCurrencyViewController.swift in Sources */,
+				0477EEF51F9EF51300B2B082 /* WebserviceManager.swift in Sources */,
+				0477EEF31F9EF3DA00B2B082 /* Singleton.swift in Sources */,
+				0477EEC01F9EF2D300B2B082 /* AppDelegate.swift in Sources */,
+				044B4F241F9F0D1A000EB506 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0477EECC1F9EF2D400B2B082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0477EED51F9EF2D400B2B082 /* LosBenjaminTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0477EED71F9EF2D400B2B082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0477EEE01F9EF2D400B2B082 /* LosBenjaminUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0477EED21F9EF2D400B2B082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0477EEBB1F9EF2D300B2B082 /* LosBenjamin */;
+			targetProxy = 0477EED11F9EF2D400B2B082 /* PBXContainerItemProxy */;
+		};
+		0477EEDD1F9EF2D400B2B082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0477EEBB1F9EF2D300B2B082 /* LosBenjamin */;
+			targetProxy = 0477EEDC1F9EF2D400B2B082 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0477EEC31F9EF2D300B2B082 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0477EEC41F9EF2D300B2B082 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0477EEC81F9EF2D300B2B082 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0477EEC91F9EF2D300B2B082 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0477EEE21F9EF2D400B2B082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0477EEE31F9EF2D400B2B082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0477EEE51F9EF2D400B2B082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DD84164F55A4222049839FC /* Pods-LosBenjamin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LosBenjamin/LosBenjamin.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TNGW5P8B9;
+				INFOPLIST_FILE = LosBenjamin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.halaapp.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0477EEE61F9EF2D400B2B082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28865351081EFC23689CEA22 /* Pods-LosBenjamin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LosBenjamin/LosBenjamin.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TNGW5P8B9;
+				INFOPLIST_FILE = LosBenjamin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.halaapp.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0477EEE81F9EF2D400B2B082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LosBenjaminTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orem.LosBenjaminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LosBenjamin.app/LosBenjamin";
+			};
+			name = Debug;
+		};
+		0477EEE91F9EF2D400B2B082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LosBenjaminTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orem.LosBenjaminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LosBenjamin.app/LosBenjamin";
+			};
+			name = Release;
+		};
+		0477EEEB1F9EF2D400B2B082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LosBenjaminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orem.LosBenjaminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LosBenjamin;
+			};
+			name = Debug;
+		};
+		0477EEEC1F9EF2D400B2B082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LosBenjaminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orem.LosBenjaminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LosBenjamin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0477EEB71F9EF2D300B2B082 /* Build configuration list for PBXProject "LosBenjamin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0477EEE21F9EF2D400B2B082 /* Debug */,
+				0477EEE31F9EF2D400B2B082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0477EEE41F9EF2D400B2B082 /* Build configuration list for PBXNativeTarget "LosBenjamin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0477EEE51F9EF2D400B2B082 /* Debug */,
+				0477EEE61F9EF2D400B2B082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0477EEE71F9EF2D400B2B082 /* Build configuration list for PBXNativeTarget "LosBenjaminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0477EEE81F9EF2D400B2B082 /* Debug */,
+				0477EEE91F9EF2D400B2B082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0477EEEA1F9EF2D400B2B082 /* Build configuration list for PBXNativeTarget "LosBenjaminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0477EEEB1F9EF2D400B2B082 /* Debug */,
+				0477EEEC1F9EF2D400B2B082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0477EEB41F9EF2D300B2B082 /* Project object */;
+}
